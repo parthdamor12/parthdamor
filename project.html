@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed creative case study of project. Cinematic video editing, photography collections, and modern web applications by Parth Damor.">
+    <meta name="author" content="Parth Damor">
+    
+    <title>Project Details | Parth Damor Portfolio</title>
+
+    <!-- Google Fonts: Outfit for titles, Plus Jakarta Sans for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- FontAwesome for brand icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="detail-page-body">
+
+    <!-- Background Glows -->
+    <div class="grid-background"></div>
+    <div class="detail-glow-left"></div>
+    <div class="detail-glow-right"></div>
+
+    <!-- Floating Back to Home button -->
+    <a href="index.html#work" class="btn btn-secondary floating-back-btn" id="floating-back">
+        <i data-lucide="arrow-left"></i>
+        <span>Back to Work</span>
+    </a>
+
+    <!-- Header / Navigation -->
+    <header class="header scrolled" id="detail-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">Parth<span class="logo-dot">.</span></span>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html#hero" class="nav-link">Home</a></li>
+                    <li><a href="index.html#work" class="nav-link active">My Work</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#contact" class="btn-contact-nav">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content" style="padding-top: 140px;">
+        <!-- Project Hero/Showcase Section -->
+        <section class="project-showcase-section">
+            <div class="section-container" style="padding-top: 20px; padding-bottom: 40px;">
+                <div class="project-header-info">
+                    <span class="project-detail-badge" id="project-detail-badge">Loading...</span>
+                    <h1 class="project-detail-title" id="project-detail-title">Project Title Loading...</h1>
+                    <p class="project-detail-subtitle" id="project-detail-subtitle">Short description loading...</p>
+                </div>
+
+                <!-- Showcase Media Area -->
+                <div class="showcase-media-wrapper card-glass" id="showcase-media-container">
+                    <!-- Dynamic Media (Video player or high-res image) will load here -->
+                    <div class="media-loader">
+                        <div class="loader-spinner"></div>
+                        <p>Loading media asset...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Narrative Section -->
+        <section class="project-narrative-section">
+            <div class="section-container" style="padding-top: 0; padding-bottom: 80px;">
+                <div class="narrative-grid">
+                    
+                    <!-- Left Column: Story & Process -->
+                    <div class="narrative-main">
+                        <div class="narrative-card card-glass">
+                            <h2 class="narrative-heading"><i data-lucide="compass" class="icon-accent"></i> The Challenge</h2>
+                            <p class="narrative-text" id="project-challenge">Loading project challenge details...</p>
+                        </div>
+
+                        <div class="narrative-card card-glass" style="margin-top: 30px;">
+                            <h2 class="narrative-heading"><i data-lucide="creative-commons" class="icon-accent"></i> Creative Process & Workflow</h2>
+                            <p class="narrative-text" id="project-process">Loading project process details...</p>
+                        </div>
+
+                        <div class="narrative-card card-glass" style="margin-top: 30px;">
+                            <h2 class="narrative-heading"><i data-lucide="trophy" class="icon-accent"></i> The Final Outcome</h2>
+                            <p class="narrative-text" id="project-outcome">Loading project outcome details...</p>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Specs & Call to Action -->
+                    <aside class="narrative-sidebar">
+                        <div class="specs-card card-glass">
+                            <h3 class="specs-heading">Project Specs</h3>
+                            <div class="specs-divider"></div>
+                            
+                            <ul class="specs-list">
+                                <li>
+                                    <span class="spec-label"><i data-lucide="user"></i> Client</span>
+                                    <span class="spec-value" id="spec-client">Loading...</span>
+                                </li>
+                                <li>
+                                    <span class="spec-label"><i data-lucide="calendar"></i> Date Completed</span>
+                                    <span class="spec-value" id="spec-date">Loading...</span>
+                                </li>
+                                <li>
+                                    <span class="spec-label"><i data-lucide="activity"></i> My Role</span>
+                                    <span class="spec-value" id="spec-role">Loading...</span>
+                                </li>
+                                <li>
+                                    <span class="spec-label"><i data-lucide="clock"></i> Duration / Output</span>
+                                    <span class="spec-value" id="spec-duration">Loading...</span>
+                                </li>
+                            </ul>
+
+                            <div class="specs-divider"></div>
+                            <h4 class="specs-subheading">Tech Stack / Tools</h4>
+                            <div class="project-tech" id="project-detail-tech" style="margin-top: 10px;">
+                                <!-- Dynamic tech tags -->
+                            </div>
+                        </div>
+
+                        <!-- CTA Discussion card -->
+                        <div class="cta-discuss-card card-glass" style="margin-top: 30px;">
+                            <div class="glowing-border"></div>
+                            <h3 class="cta-discuss-title">Love this work?</h3>
+                            <p class="cta-discuss-desc">Let's discuss a similar creative edit or digital solution tailored perfectly to your brand goals!</p>
+                            <a href="" id="project-whatsapp-btn" target="_blank" class="btn btn-primary btn-cta-block">
+                                <i data-lucide="message-square"></i>
+                                <span>Discuss Similar Project</span>
+                            </a>
+                        </div>
+                    </aside>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- Photography Gallery Section (Visible only for photo category) -->
+        <section class="gallery-showcase-section" id="gallery-section" style="display: none;">
+            <div class="section-container" style="padding-top: 0; padding-bottom: 80px;">
+                <div class="section-header" style="text-align: left; margin-bottom: 40px;">
+                    <span class="section-subtitle">Visual Collection</span>
+                    <h2 class="section-title">Moody Gallery Series</h2>
+                    <p class="section-desc" style="margin-left: 0;">A series of related capture files exploring details, color schemes, and compositions from the same session.</p>
+                </div>
+                
+                <div class="gallery-photo-grid" id="gallery-photos-container">
+                    <!-- Dynamic images load here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Recommendations / Suggestion Section -->
+        <section class="suggestions-section" id="suggestions">
+            <div class="section-container" style="padding-top: 60px; padding-bottom: 100px; border-top: 1px solid var(--border-color);">
+                <div class="section-header">
+                    <span class="section-subtitle">Explore More</span>
+                    <h2 class="section-title">Other Creative Projects</h2>
+                    <p class="section-desc">Keep browsing through a curated selection of video edits, photography collections, and interactive websites.</p>
+                </div>
+
+                <!-- Suggestions Grid -->
+                <div class="portfolio-grid" id="suggestions-grid">
+                    <!-- 3 Dynamic suggested project cards load here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Parth<span class="logo-dot">.</span></span>
+                </a>
+                <p class="footer-tagline">Visual storytelling combined with modern code.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 class="footer-title">Navigation</h4>
+                <ul>
+                    <li><a href="index.html#hero">Home</a></li>
+                    <li><a href="index.html#work">My Work</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-socials">
+                <h4 class="footer-title">Connect</h4>
+                <div class="social-grid">
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter / X"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/i_am_parth_damor?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Parth Damor. All Rights Reserved. Crafted with ❤️ for Video Editors & Developers.</p>
+        </div>
+    </footer>
+
+    <!-- Video Modal Popup (For playing recommendation edits without leaving page) -->
+    <div class="video-modal" id="video-modal" role="dialog" aria-modal="true">
+        <div class="video-modal-overlay" id="video-modal-overlay"></div>
+        <div class="video-modal-content">
+            <button class="modal-close" id="modal-close" aria-label="Close Video Player">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="video-player-wrapper">
+                <video id="modal-video-player" src="" controls autoplay playsinline class="modal-video"></video>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Lightbox Popup (For photography recommendation full preview) -->
+    <div class="image-modal" id="image-modal" role="dialog" aria-modal="true">
+        <div class="image-modal-overlay" id="image-modal-overlay"></div>
+        <div class="image-modal-content">
+            <button class="image-modal-close" id="image-modal-close" aria-label="Close Image Preview">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="image-preview-wrapper">
+                <img id="modal-image-preview" src="" alt="Full Resolution Preview">
+            </div>
+        </div>
+    </div>
+
+    <!-- Load scripts in order -->
+    <script src="projects-data.js"></script>
+    <script src="project-detail.js"></script>
+</body>
+</html>

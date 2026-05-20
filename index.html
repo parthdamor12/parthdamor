@@ -47,16 +47,16 @@
       "@context": "https://schema.org",
       "@type": "Person",
       "name": "Parth Damor",
-      "jobTitle": "Video Editor & Photographer & Website Developer",
+      "jobTitle": "Video Editor, Web Developer & Performance Marketer",
       "url": "https://parthdamor12.github.io/parthdamor/",
       "image": "https://parthdamor12.github.io/parthdamor/assets/profile.jpg",
-      "description": "Creative Video Editor & Photographer specializing in cinematic edits, reels, YouTube content, event shoots, iPhone cinematography, and modern website development.",
+      "description": "Creative Video Editor, Web Developer & Performance Marketer specializing in cinematic edits, YouTube growth, highly targeted social media ads campaigns, and high-performance websites.",
       "sameAs": [
         "https://github.com/parthdamor",
         "https://linkedin.com/in/parthdamor",
         "https://twitter.com/parthdamor"
       ],
-      "knowsAbout": ["Video Editing", "Photography", "Cinematography", "Web Development", "Adobe Premiere Pro", "After Effects", "DaVinci Resolve", "CSS", "JavaScript"]
+      "knowsAbout": ["Video Editing", "Photography", "Cinematography", "Web Development", "Digital Marketing", "Performance Marketing", "Meta Ads", "Google Ads", "Adobe Premiere Pro", "After Effects", "DaVinci Resolve"]
     }
     </script>
 </head>
@@ -99,6 +99,7 @@
                         <span class="dynamic-title active">Video Editor</span>
                         <span class="dynamic-title">Photographer</span>
                         <span class="dynamic-title">Website Developer</span>
+                        <span class="dynamic-title">Performance Marketer</span>
                     </div>
                     <p class="hero-description" id="hero-desc">
                         Creative Video Editor & Photographer specializing in cinematic edits, reels, YouTube content, event shoots, iPhone cinematography, and modern website development. Let's bring your vision to life.
@@ -163,163 +164,12 @@
                     <button class="filter-btn" data-filter="video" id="filter-video">Video Editing</button>
                     <button class="filter-btn" data-filter="photo" id="filter-photo">Photography</button>
                     <button class="filter-btn" data-filter="web" id="filter-web">Web Dev</button>
+                    <button class="filter-btn" data-filter="marketing" id="filter-marketing">Marketing</button>
                 </div>
 
                 <!-- Portfolio Grid -->
                 <div class="portfolio-grid" id="portfolio-grid">
-                    <!-- Project 1 (Cinematic Video) -->
-                    <div class="portfolio-item card-glass show" data-category="video" id="project-1">
-                        <div class="project-media">
-                            <video src="https://assets.mixkit.co/videos/preview/mixkit-cyberpunk-city-street-with-neon-lights-40130-large.mp4" loop muted playsinline class="project-video-preview"></video>
-                            <div class="project-overlay">
-                                <button class="play-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-cyberpunk-city-street-with-neon-lights-40130-large.mp4" aria-label="Play Cinematic Reel" id="btn-play-1">
-                                    <i data-lucide="play"></i>
-                                </button>
-                            </div>
-                            <span class="project-badge video-badge"><i data-lucide="video"></i> Video Editing</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Cyberpunk City - Cinematic Edit</h3>
-                            <p class="project-desc">A futuristic aesthetic edit featuring quick transitions, neon-color grading, and customized sound design.</p>
-                            <div class="project-tech">
-                                <span>Premiere Pro</span>
-                                <span>After Effects</span>
-                                <span>Color Grading</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 2 (YouTube / Vlog Video) -->
-                    <div class="portfolio-item card-glass show" data-category="video" id="project-2">
-                        <div class="project-media">
-                            <video src="https://assets.mixkit.co/videos/preview/mixkit-man-holding-a-video-camera-editing-a-scene-40898-large.mp4" loop muted playsinline class="project-video-preview"></video>
-                            <div class="project-overlay">
-                                <button class="play-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-man-holding-a-video-camera-editing-a-scene-40898-large.mp4" aria-label="Play Behind the Scenes" id="btn-play-2">
-                                    <i data-lucide="play"></i>
-                                </button>
-                            </div>
-                            <span class="project-badge video-badge"><i data-lucide="video"></i> Video Editing</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Creator Behind The Scenes</h3>
-                            <p class="project-desc">YouTube style vlog editing with pacing, zooms, visual hooks, text overlays, and background tracks to keep retention high.</p>
-                            <div class="project-tech">
-                                <span>Vlog Edit</span>
-                                <span>Sound Mixing</span>
-                                <span>Visual Effects</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 3 (Social Reels Video) -->
-                    <div class="portfolio-item card-glass show" data-category="video" id="project-3">
-                        <div class="project-media">
-                            <video src="https://assets.mixkit.co/videos/preview/mixkit-cinematic-shot-of-a-woman-walking-in-the-city-43180-large.mp4" loop muted playsinline class="project-video-preview"></video>
-                            <div class="project-overlay">
-                                <button class="play-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-cinematic-shot-of-a-woman-walking-in-the-city-43180-large.mp4" aria-label="Play Instagram Reel" id="btn-play-3">
-                                    <i data-lucide="play"></i>
-                                </button>
-                            </div>
-                            <span class="project-badge video-badge"><i data-lucide="video"></i> Video Editing</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Urban Aesthetics - Instagram Reel</h3>
-                            <p class="project-desc">Fast-paced portrait video optimized for Instagram Reels/TikTok. Includes beat synchronization and trendy filters.</p>
-                            <div class="project-tech">
-                                <span>Portrait Video</span>
-                                <span>Beat Sync</span>
-                                <span>Reels Format</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 4 (Photography - Portrait) -->
-                    <div class="portfolio-item card-glass show" data-category="photo" id="project-4">
-                        <div class="project-media">
-                            <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=800&q=80" alt="Cinematic Portrait Photography" class="project-image">
-                            <div class="project-overlay">
-                                <button class="zoom-btn" data-img-url="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=1200&q=80" aria-label="View Full Portrait" id="btn-zoom-4">
-                                    <i data-lucide="maximize-2"></i>
-                                </button>
-                            </div>
-                            <span class="project-badge photo-badge"><i data-lucide="camera"></i> Photography</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Moody Cinematic Portraits</h3>
-                            <p class="project-desc">A series of portrait shots focused on dramatic shadows, soft light, and intense facial expressions.</p>
-                            <div class="project-tech">
-                                <span>Sony A7III</span>
-                                <span>85mm Lens</span>
-                                <span>Lightroom Classic</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 5 (Photography - Landscape) -->
-                    <div class="portfolio-item card-glass show" data-category="photo" id="project-5">
-                        <div class="project-media">
-                            <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?auto=format&fit=crop&w=800&q=80" alt="Landscape Photography" class="project-image">
-                            <div class="project-overlay">
-                                <button class="zoom-btn" data-img-url="https://images.unsplash.com/photo-1500964757637-c85e8a162699?auto=format&fit=crop&w=1200&q=80" aria-label="View Full Landscape" id="btn-zoom-5">
-                                    <i data-lucide="maximize-2"></i>
-                                </button>
-                            </div>
-                            <span class="project-badge photo-badge"><i data-lucide="camera"></i> Photography</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Ethereal Mountains & Valleys</h3>
-                            <p class="project-desc">Landscape photography capturing the serenity of mountains at golden hour, utilizing advanced high-dynamic-range (HDR).</p>
-                            <div class="project-tech">
-                                <span>Landscape</span>
-                                <span>Golden Hour</span>
-                                <span>Color Grading</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 6 (Video Editing - Event Shoot) -->
-                    <div class="portfolio-item card-glass show" data-category="video" id="project-6">
-                        <div class="project-media">
-                            <video src="https://assets.mixkit.co/videos/preview/mixkit-young-man-photographing-with-a-retro-camera-40292-large.mp4" loop muted playsinline class="project-video-preview"></video>
-                            <div class="project-overlay">
-                                <button class="play-btn" data-video-url="https://assets.mixkit.co/videos/preview/mixkit-young-man-photographing-with-a-retro-camera-40292-large.mp4" aria-label="Play Event Highlights" id="btn-play-6">
-                                    <i data-lucide="play"></i>
-                                </button>
-                            </div>
-                            <span class="project-badge video-badge"><i data-lucide="video"></i> Video Editing</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Creative Workshop Highlight</h3>
-                            <p class="project-desc">A fast-paced recap video summarizing a photography workshop, detailing raw interactions and professional equipment setup.</p>
-                            <div class="project-tech">
-                                <span>DaVinci Resolve</span>
-                                <span>Cinematic Recap</span>
-                                <span>LUTS</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project 7 (Web Development - Creative Site) -->
-                    <div class="portfolio-item card-glass show" data-category="web" id="project-7">
-                        <div class="project-media">
-                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="Web Dev Project" class="project-image">
-                            <div class="project-overlay">
-                                <a href="https://github.com" target="_blank" class="link-btn" aria-label="View Github Code" id="btn-link-7">
-                                    <i data-lucide="external-link"></i>
-                                </a>
-                            </div>
-                            <span class="project-badge web-badge"><i data-lucide="code"></i> Web Dev</span>
-                        </div>
-                        <div class="project-info">
-                            <h3 class="project-title">Interactive Media Agency Site</h3>
-                            <p class="project-desc">A custom-built single page application for a production agency. Highly optimized code with animations and contact forms.</p>
-                            <div class="project-tech">
-                                <span>HTML5</span>
-                                <span>CSS3 Grid/Flex</span>
-                                <span>Vanilla JavaScript</span>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- Dynamically loaded from projects-data.js -->
                 </div>
             </div>
         </section>
@@ -373,6 +223,20 @@
                             <li><i data-lucide="check-circle-2"></i> Optimized SEO Setup</li>
                             <li><i data-lucide="check-circle-2"></i> High Performance Page Speed</li>
                             <li><i data-lucide="check-circle-2"></i> Clean Responsive Design</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="service-card card-glass" id="service-4">
+                        <div class="service-icon-wrapper">
+                            <i data-lucide="megaphone" class="service-icon"></i>
+                        </div>
+                        <h3 class="service-title">Digital & Performance Marketing</h3>
+                        <p class="service-text">High-ROAS paid ad campaigns across Meta (Instagram/Facebook) and YouTube. Advanced data targeting, campaign scaling structure, and conversion rate optimization (CRO).</p>
+                        <ul class="service-list">
+                            <li><i data-lucide="check-circle-2"></i> Targeted Ads Setup & Scaling</li>
+                            <li><i data-lucide="check-circle-2"></i> Ad Copywriting & High-Retention Creatives</li>
+                            <li><i data-lucide="check-circle-2"></i> ROAS & Budget Optimization</li>
                         </ul>
                     </div>
                 </div>
@@ -595,6 +459,8 @@
         </div>
     </div>
 
+    <!-- Central Project Database -->
+    <script src="projects-data.js"></script>
     <!-- Custom JavaScript -->
     <script src="script.js"></script>
 </body>
