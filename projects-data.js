@@ -7,7 +7,7 @@ const projectsData = [
         badge: "Video Editing",
         badgeIcon: "video",
         videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-cyberpunk-city-street-with-neon-lights-40130-large.mp4",
-        imageUrl: "", // Handled by video preview
+        imageUrl: "https://images.unsplash.com/photo-1578894381163-e72c17f2d45f?auto=format&fit=crop&w=800&q=80",
         tech: ["Premiere Pro", "After Effects", "Color Grading"],
         
         // Detailed Page Content
@@ -28,7 +28,7 @@ const projectsData = [
         badge: "Video Editing",
         badgeIcon: "video",
         videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-man-holding-a-video-camera-editing-a-scene-40898-large.mp4",
-        imageUrl: "",
+        imageUrl: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=800&q=80",
         tech: ["Vlog Edit", "Sound Mixing", "Visual Effects"],
         
         // Detailed Page Content
@@ -49,7 +49,7 @@ const projectsData = [
         badge: "Video Editing",
         badgeIcon: "video",
         videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-cinematic-shot-of-a-woman-walking-in-the-city-43180-large.mp4",
-        imageUrl: "",
+        imageUrl: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=800&q=80",
         tech: ["Portrait Video", "Beat Sync", "Reels Format"],
         
         // Detailed Page Content
@@ -120,7 +120,7 @@ const projectsData = [
         badge: "Video Editing",
         badgeIcon: "video",
         videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-young-man-photographing-with-a-retro-camera-40292-large.mp4",
-        imageUrl: "",
+        imageUrl: "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=800&q=80",
         tech: ["DaVinci Resolve", "Cinematic Recap", "LUTS"],
         
         // Detailed Page Content

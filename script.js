@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let mediaHTML = '';
             if (project.category === 'video') {
                 mediaHTML = `
-                    <video src="${project.videoUrl}" loop muted playsinline class="project-video-preview"></video>
+                    <video src="${project.videoUrl}" ${project.imageUrl ? `poster="${project.imageUrl}"` : ''} loop muted playsinline class="project-video-preview"></video>
                     <div class="project-overlay">
                         <button class="play-btn" data-video-url="${project.videoUrl}" aria-label="Play Cinematic Reel" id="btn-play-${project.id}">
                             <i data-lucide="play"></i>
