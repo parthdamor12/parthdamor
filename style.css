@@ -335,6 +335,7 @@ button, input, textarea {
     display: flex;
     align-items: center;
     padding-top: 100px;
+    padding-bottom: 120px;
     background: radial-gradient(circle at 80% 20%, rgba(13, 242, 201, 0.08) 0%, transparent 50%),
                 radial-gradient(circle at 10% 80%, rgba(79, 172, 254, 0.06) 0%, transparent 50%);
     overflow: hidden;
@@ -386,6 +387,7 @@ button, input, textarea {
     font-size: clamp(1.8rem, 3.5vw, 3rem);
     font-weight: 700;
     height: 1.4em;
+    width: 100%;
     position: relative;
     margin-bottom: 24px;
     overflow: hidden; /* prevent stacking overflow */
