@@ -445,6 +445,10 @@ button, input, textarea {
     transition: all var(--transition-normal);
 }
 
+.social-icon i {
+    font-size: 20px;
+}
+
 .social-icon:hover {
     color: #fff;
     background: rgba(79, 172, 254, 0.1);
@@ -1221,6 +1225,10 @@ button, input, textarea {
     border: 1px solid var(--border-color);
     color: var(--text-secondary);
     transition: all var(--transition-normal);
+}
+
+.footer-socials a i {
+    font-size: 18px;
 }
 
 .footer-socials a:hover {
