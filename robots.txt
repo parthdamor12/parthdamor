@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://parthdamor12.github.io/parthdamor/sitemap.xml
